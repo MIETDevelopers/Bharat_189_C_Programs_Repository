@@ -12,6 +12,6 @@ int main()       //Main function
 	printf("Enter point two(x2,y2)\n");   //printf function calling
 	scanf("%f %f",&x2,&y2);
 	distance=sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));       //variable defintion for Euclidean distance
-	printf("distance between(%f,%f)&(%f,%f)is %f\n",x1,y1,x2,y1,distance);
+	printf("distance between(%f,%f)&(%f,%f)is %f\n",x1,y1,x2,y2,distance);
 	return 0;         //return function
 }
