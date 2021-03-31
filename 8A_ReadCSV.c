@@ -14,7 +14,7 @@ const char* getfield(char* line, int num){
     return NULL;
 }
 int main(){			//main function body.
-    FILE* stream = fopen("C:\\Users\\HP\\Desktop\\C_Programs\\Aryan_133_C_Programs_Repository\\034_ReadCSV.csv", "r"); //Path of the .csv file.
+    FILE* stream = fopen("C:\\Users\\ASUS\\OneDrive\\Desktop\\C_Repository\\Bharat_189_C_Programs_Repository\\8A_ReadCSV.csv", "r"); //Path of the .csv file.
     char line[1024];        //Variable declarartion of character data type.
     while (fgets(line, 1024, stream)){		//while loop
         char* tmp = strdup(line);
