@@ -1,6 +1,6 @@
 //Bharat Sharma
 //Program to find factorial using for loop
-#include<stdio.h>   //Pre-process directive to include standard input and output functions header file 
+#include<stdio.h>   //Pre-processor directive to include standard input and output functions header file 
 
 int main()     //Main function
 {
