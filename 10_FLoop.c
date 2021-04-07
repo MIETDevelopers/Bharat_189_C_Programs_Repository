@@ -12,6 +12,6 @@ int main()     //Main function
   for(i=1;i<=num;i++)  //for loop started 
       f=f*i;
  
-  printf("Factorial of %d is: %d",num,f);  //print statement should be according to Question
+  printf("Factorial of %d is: %d",num,f);  //print function calling
   return 0; //return function
 }
